@@ -1,48 +1,67 @@
 <!doctype html>
 <html lang="sv">
-    <head>
-        <meta charset="utf-8"/>
-        <title>Kontakt</title>
-    </head>
-    <body>
-        <ul>
-            <li><a href="../../index.html">Start</a></li>
-            <li><a href="../pages/kontakt.html">Kontakt </a></li>
-            <li><a href="../pages/laborationer.html">Laborationer </a></li>
-            <li><a href="../pages/presentation.html">Presentation </a></li>
-        </ul>
-        
-        <h1>Kontakta mig</h1>
-        <form action="http://voyager.lnu.tekinet/kurser/dtt/wp_webbintro/form.php" method="post" id="Kontakta mig">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Kontakt</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="../index.html">Start</a>
+        </li>
+        <li><a href="pages/kontakt.html">Kontakt </a>
+        </li>
+        <li><a href="pages/laborationer.html">Laborationer </a>
+        </li>
+        <li><a href="pages/presentation.html">Presentation </a>
+        </li>
+    </ul>
+
+    <h1>Kontakta mig</h1>
+    <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" id="Kontakta mig">
+        <fieldset>
+            <legend>Vad gäller frågan?</legend>
+            <p>Vänligen beskriv vad du vill ha svar på
+                <input type="text" name="anledning" />
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Administrativ information</legend>
             <fieldset>
-                <legend>Vad gäller frågan?</legend>
-                    <p>Vänligen beskriv vad du vill ha svar på <input type="text" name="anledning"/></p>
+                <legend>Hur viktigt är det att du får svar på din förfrågan?</legend>
+                <p>
+                    <input type="checkbox" name="viktigtattfasvar" value="extremtviktigt" />Extremt viktigt
+                </p>
+                <p>
+                    <input type="checkbox" name="viktigtattfasvar" value="viktigt" />Viktigt
+                </p>
+                <p>
+                    <input type="checkbox" name="viktigtattfasvar" value="intesanoga" />Inte så noga
+                </p>
             </fieldset>
+            <p>Är din fråga av privat eller offentlig karaktär?</p>
+            <p>
+                <input type="radio" name="privat" value="privat" />Privat
+            </p>
+            <p>
+                <input type="radio" name="offentlig" value="offentlig" checked="checked" />Offentlig
+            </p>
             <fieldset>
-                <legend>Administrativ information</legend>
-                    <fieldset>
-                        <legend>Hur viktigt är det att du får svar på din förfrågan?</legend>
-                            <p><input type="checkbox" name="viktigtattfasvar" value="extremtviktigt"/>Extremt viktigt</p>
-                            <p><input type="checkbox" name="viktigtattfasvar" value="viktigt"/>Viktigt</p>
-                            <p><input type="checkbox" name="viktigtattfasvar" value="intesanoga"/>Inte så noga</p>
-                    </fieldset>
-                    <p>Är din fråga av privat eller offentlig karaktär?</p>
-                            <p><input type="radio" name="privat" value="privat"/>Privat</p>
-                            <p><input type="radio" name="offentlig" value="offentlig" checked="checked"/>Offentlig</p>
-                    <fieldset>
-                        <legend> Hur känner vi varann?</legend>
-                            <select>
-                                <option value="kursare">Vi läser samma kurs</option>
-                                <option value="kompis">Jag är din bästa vän</option>
-                                <option value="handledare">Jag är din handledare/lärare</option>
-                                <option value="unknown">Vi känner inte varann</option>
-                                <option value="apan">Du känner inte mig men jag vet vem du är</option>
-                            </select>
-                    </fieldset>
+                <legend>Hur känner vi varann?</legend>
+                <select>
+                    <option value="kursare">Vi läser samma kurs</option>
+                    <option value="kompis">Jag är din bästa vän</option>
+                    <option value="handledare">Jag är din handledare/lärare</option>
+                    <option value="unknown">Vi känner inte varann</option>
+                    <option value="apan">Du känner inte mig men jag vet vem du är</option>
+                </select>
             </fieldset>
-            <fieldset>
-                <input type="submit" value="Skicka förfrågan"/>
-            </fieldset>
-        </form>
-    </body>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Skicka förfrågan" />
+        </fieldset>
+    </form>
+</body>
+
 </html>
