@@ -1,0 +1,43 @@
+#container 
+{
+    width: 960px;
+}
+
+#header 
+{
+    width: 960px;
+    height: 240px;
+  
+}
+
+#logo
+{
+    width: 180 px;
+    height: 240 px;
+    float: right;
+}
+
+#navigation 
+{
+    width: 180px;
+    float: left;
+    margin-right: -180px;
+}
+
+#wrapper
+{
+    width: 100%;
+    float: left;
+}
+
+#content 
+{
+    margin-left: 150px;
+}
+
+#footer
+{
+    width: 100%;
+    height: 240px;
+    float: left;
+}
