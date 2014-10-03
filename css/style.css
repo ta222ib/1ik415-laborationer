@@ -9,15 +9,40 @@ h2 {
 a {
     text-decoration: none;
 }
-a:link {
+ul {
+    list-style-type: none;
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+#navigation li a {
+display: block;
+padding: 10px;
+background-color: #FFE9F0;
+border-bottom: 1px solid black;
+color: #B21144;
+
+}
+#navigation li a: link {
     color: #B21144;
 }
-a:visited {
-    color: #14B225
+#navigation li a:visited {
+    color: #14B225;
 }
-a:hover {
+#navigation li a:focus {
+    color: #FFE9F0;
+}
+#navigation li a:hover {
     color: #B21144;
+    background-color: #14B225;
 }
+#navigation li a:active {
+    color: FFE9F0;
+}
+
+
+
 #container {
     width: 1034px;
 }
@@ -43,7 +68,7 @@ a:hover {
     background-color: #FFFFFF;
 }
 #content {
-    margin-left: 180px;
+    margin-left: 200px;
 }
 #footer {
     width: 100%;
