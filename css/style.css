@@ -59,6 +59,8 @@ p {
 }
 #container {
     width: 1034px;
+    /*background-image:url(../pics/therese.png);
+    opacity: 0,4;*/
 }
 #header {
     width: 1034px;
