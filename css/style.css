@@ -6,13 +6,12 @@ h2 {
     border-bottom: dotted;
     border-color: #FFE9F0;
 }
-#active{
+#active {
     color: #FFE9F0;
     display: block;
-padding: 10px;
-background-color: #FFE9F0;
-border-bottom: 1px solid black;
-
+    padding: 10px;
+    background-color: #FFE9F0;
+    border-bottom: 1px solid black;
 }
 #navigation a {
     text-decoration: none;
@@ -24,16 +23,14 @@ border-bottom: 1px solid black;
     margin: 0;
     padding: 0;
 }
-
 #navigation li a {
-display: block;
-padding: 10px;
-background-color: #FFE9F0;
-border-bottom: 1px solid black;
-color: #B21144;
-
+    display: block;
+    padding: 10px;
+    background-color: #FFE9F0;
+    border-bottom: 1px solid black;
+    color: #B21144;
 }
-#navigation li a: link {
+#navigation li a:link {
     color: #B21144;
 }
 #navigation li a:visited {
@@ -49,8 +46,6 @@ color: #B21144;
 #navigation li a:active {
     color: #E9FFEC;
 }
-
-
 #container {
     width: 1034px;
 }
