@@ -6,16 +6,20 @@ h2 {
     border-bottom: dotted;
     border-color: #FFE9F0;
 }
-a {
+#active{
+    color: #FFE9F0;
+}
+#navigation a {
     text-decoration: none;
 }
-ul {
+#navigation ul {
     list-style-type: none;
     border: 1px solid black;
     border-bottom: none;
     margin: 0;
     padding: 0;
 }
+
 #navigation li a {
 display: block;
 padding: 10px;
@@ -38,9 +42,8 @@ color: #B21144;
     background-color: #14B225;
 }
 #navigation li a:active {
-    color: FFE9F0;
+    color: #FFE9F0;
 }
-
 
 
 #container {
