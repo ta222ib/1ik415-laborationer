@@ -8,6 +8,11 @@ h2 {
 }
 #active{
     color: #FFE9F0;
+    display: block;
+padding: 10px;
+background-color: #FFE9F0;
+border-bottom: 1px solid black;
+
 }
 #navigation a {
     text-decoration: none;
