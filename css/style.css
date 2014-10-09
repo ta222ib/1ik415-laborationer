@@ -4,13 +4,16 @@ h1 {
     font-size: 3em;
 }
 h2 {
-    
     color: #14B225;
     border-bottom: dotted;
     border-color: #FFE9F0;
     font-family: "Georgia", serif;
     font-size: 2em;
 }
+p:right { float: right;}
+   
+p:left {color: #14B225;}
+    
 p {
     font-family: "Georgia", serif;
     font-size: 1em;
@@ -94,8 +97,6 @@ p {
     border-top: solid;
     background-color: #E9FFEC;
 }
-#blogpost{
-    start:url(../pics/ikon.png)
 a {
     font-style: italic;
     font-weight: bold;
