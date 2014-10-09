@@ -4,6 +4,7 @@ h1 {
     font-size: 3em;
 }
 h2 {
+    
     color: #14B225;
     border-bottom: dotted;
     border-color: #FFE9F0;
@@ -59,8 +60,8 @@ p {
 }
 #container {
     width: 1034px;
-    /*background-image:url(../pics/therese.png);
-    opacity: 0,4;*/
+    background-image:url(../pics/theresebakgrund.png);
+    opacity: 0,4;
 }
 #header {
     width: 1034px;
@@ -93,6 +94,8 @@ p {
     border-top: solid;
     background-color: #E9FFEC;
 }
+#blogpost{
+    start:url(../pics/ikon.png)
 a {
     font-style: italic;
     font-weight: bold;
