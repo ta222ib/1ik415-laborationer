@@ -19,12 +19,12 @@
             <ul>
                 <li><a href="../index.html">Start</a>
                 </li>
-                <li>
-                    <div id="active">Kontakt</div>
+                <li><a href="presentation.html">Presentation </a>
                 </li>
                 <li><a href="laborationer.html">Laborationer </a>
                 </li>
-                <li><a href="presentation.html">Presentation </a>
+                <li>
+                    <div id="active">Kontakt</div>
                 </li>
             </ul>
         </div>
@@ -42,31 +42,31 @@
                     <fieldset>
                         <legend>Hur viktigt är det att du får svar på din förfrågan?</legend>
                         <p>
-                            <input type="checkbox" name="viktigtattfasvar" value="extremtviktigt" />Extremt viktigt
+                            <input type="radio" name="viktigtattfasvar1" value="extremtviktigt" />Extremt viktigt
                         </p>
                         <p>
-                            <input type="checkbox" name="viktigtattfasvar" value="viktigt" />Viktigt
+                            <input type="radio" name="viktigtattfasvar2" value="viktigt" />Viktigt
                         </p>
                         <p>
-                            <input type="checkbox" name="viktigtattfasvar" value="intesanoga" />Inte så noga
+                            <input type="radio" name="viktigtattfasvar3" value="intesanoga" />Inte så noga
                         </p>
                     </fieldset>
                     <p>Är din fråga av privat eller offentlig karaktär?</p>
                     <p>
-                        <input type="radio" name="privat" value="privat" />Privat
+                        <input type="radio" name="karaktar" value="privat" />Privat
                     </p>
                     <p>
-                        <input type="radio" name="offentlig" value="offentlig" checked="checked" />Offentlig
+                        <input type="radio" name="karaktar" value="offentlig" checked="checked" />Offentlig
                     </p>
                     <fieldset>
                         <legend>Hur känner vi varann?</legend>
-                        <select>
+                        <select="relation">
                             <option value="kursare">Vi läser samma kurs</option>
                             <option value="kompis">Jag är din bästa vän</option>
                             <option value="handledare">Jag är din handledare/lärare</option>
                             <option value="unknown">Vi känner inte varann</option>
                             <option value="apan">Du känner inte mig men jag vet vem du är</option>
-                        </select>
+                            </select>
                     </fieldset>
                 </fieldset>
                 <fieldset>
