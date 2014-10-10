@@ -10,10 +10,14 @@ h2 {
     font-family: "Georgia", serif;
     font-size: 2em;
 }
-p:right { float: right;}
-   
-p:left {color: #14B225;}
-    
+.right {
+    float: right;
+    width: 240px;
+    height: 320px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #FFE9F0;
+}
 p {
     font-family: "Georgia", serif;
     font-size: 1em;
@@ -63,8 +67,8 @@ p {
 }
 #container {
     width: 1034px;
-    background-image:url(../pics/theresebakgrund.png);
-    opacity: 0,4;
+    background-image: url(../pics/theresebakgrund.png);
+    opacity: 0, 4;
 }
 #header {
     width: 1034px;
